@@ -25,4 +25,3 @@ namespace KikeletPanzio
         public int Ferohely { get => ferohely; set => ferohely = value; }
     }
 }
-s
