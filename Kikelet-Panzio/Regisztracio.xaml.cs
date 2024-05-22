@@ -14,9 +14,7 @@ using System.Windows.Shapes;
 
 namespace KikeletPanzio
 {
-    /// <summary>
-    /// Interaction logic for Regisztracio.xaml
-    /// </summary>
+
     public partial class Regisztracio : Window
     {
         public Regisztracio()
