@@ -21,7 +21,10 @@ namespace Kikelet_Panzio
     {
         public Statisztika()
         {
+            for (int i = 0; i < length; i++)
+            {
 
+            }
         }
     }
 }
