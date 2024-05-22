@@ -44,6 +44,6 @@
 
         <Button Background="FloralWhite" x:Name="BtnMegse" Content="Mégse" Grid.Row="6" Grid.Column="1" FontSize="10" HorizontalAlignment="Center" Height="25" Width="65"/>
         <Button Background="LightGreen" x:Name="BtnLogin" Content="Bejelentkezés" Grid.Row="6" Grid.Column="0" FontSize="10" HorizontalAlignment="Center" Height="25" Width="65" Click="Button_Click"/>
-        <Button Background="Yellow" x:Name="BtnLefoglal" Content="Lefoglal" Grid.Row="8" Click="BtnLefoglal_Click" Grid.ColumnSpan="2" Margin="125,10,125,0" Height="20" VerticalAlignment="Top" />
+        <Button Background="GreenYellow" x:Name="BtnLefoglal" Content="Lefoglal" Grid.Row="8" Click="BtnLefoglal_Click" Grid.ColumnSpan="2" Margin="125,10,125,0" Height="20" VerticalAlignment="Top" />
     </Grid>
 </Window> 
