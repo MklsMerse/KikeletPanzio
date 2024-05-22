@@ -1,0 +1,22 @@
+﻿<Window x:Class="HotelStatistics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Statisztikák" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Label Content=""/>
+            <TextBlock x:Name="Tbx" FontSize="16" FontWeight="Bold" Margin="10"></TextBlock>
+            <Label Content=""/>
+            <TextBlock Margin="5"></TextBlock>
+            <Label Content="Összes bevétel(Ft)"/>
+            <TextBox x:Name="TbxBevetel" Margin="5" IsReadOnly="True"/>
+            <Label Content=""/>
+            <TextBlock Margin="5"></TextBlock>
+            <Label Content="Legtöbbet kiadott szoba"/>
+            <TextBox x:Name="TbxTopSzoba" Margin="5" IsReadOnly="True"/>
+            <TextBlock Margin="15"></TextBlock>
+            <Label Content="Törzsvendégek listája"/>
+            <ListBox x:Name="LbTorzsVendeg" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
