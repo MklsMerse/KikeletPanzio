@@ -17,6 +17,7 @@ namespace KikeletPanzio
             Ar = ar;
             Szobasz = szobasz;
             Ferohely = ferohely;
+
         }
 
         public int Ar { get => ar; set => ar = value; }
@@ -24,3 +25,4 @@ namespace KikeletPanzio
         public int Ferohely { get => ferohely; set => ferohely = value; }
     }
 }
+s

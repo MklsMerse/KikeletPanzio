@@ -21,7 +21,7 @@ namespace Kikelet_Panzio
     {
         public Statisztika()
         {
-            InitializeComponent();
+
         }
     }
 }

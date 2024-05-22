@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Szobafoglalás" Height="250" Width="500">
 
-    <Grid>
+    <Grid Background="LightYellow">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"/>
             <ColumnDefinition Width="250"/>
@@ -21,18 +21,16 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Menu spanning across both columns -->
         <Menu Grid.ColumnSpan="2">
             <MenuItem Header="Regisztráció"/>
             <MenuItem Header="Statisztika"/>
         </Menu>
 
-        <!-- Label spanning across both columns -->
         <Label Content="Válassza ki a szobát" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
 
-        <!-- Checkboxes in the first row -->
         <CheckBox Grid.Row="2" Grid.Column="0" Content="Szoba 1"/>
         <CheckBox Grid.Row="2" Grid.Column="1" Content="Szoba 2"/>
         <CheckBox Grid.Row="3" Grid.Column="0" Content="Szoba 3"/>
@@ -40,12 +38,12 @@
         <CheckBox Grid.Row="4" Grid.Column="0" Content="Szoba 5"/>
         <CheckBox Grid.Row="4" Grid.Column="1" Content="Szoba 6"/>
 
-        <!-- TextBoxes and Buttons -->
-        <TextBox x:Name="TbxSzoba" Grid.Row="5" Grid.Column="0" Margin="10"/>
+
+        <TextBox x:Name="TbxFerohely" Grid.Row="5" Grid.Column="0" Margin="10"/>
         <TextBox x:Name="TbxAr" Grid.Row="5" Grid.Column="1" Margin="10"/>
 
         <Button Background="FloralWhite" x:Name="BtnMegse" Content="Mégse" Grid.Row="6" Grid.Column="1" FontSize="10" HorizontalAlignment="Center" Height="25" Width="65"/>
-        <Button Background="LightGreen" x:Name="BtnLefoglal" Content="Foglalás" Grid.Row="6" Grid.Column="0" FontSize="10" HorizontalAlignment="Center" Height="25" Width="65"/>
-        <ComboBox Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,34,0,2"/>
+        <Button Background="LightGreen" x:Name="BtnLogin" Content="Bejelentkezés" Grid.Row="6" Grid.Column="0" FontSize="10" HorizontalAlignment="Center" Height="25" Width="65" Click="Button_Click"/>
+        <Button Background="Yellow" x:Name="BtnLefoglal" Content="Lefoglal" Grid.Row="8" Click="BtnLefoglal_Click" Grid.ColumnSpan="2" Margin="125,10,125,0" Height="20" VerticalAlignment="Top" />
     </Grid>
-</Window>
+</Window> 

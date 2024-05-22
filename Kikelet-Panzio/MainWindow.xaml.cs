@@ -21,5 +21,14 @@ namespace KikeletPanzio
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Foglalás kezelése
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnLefoglal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

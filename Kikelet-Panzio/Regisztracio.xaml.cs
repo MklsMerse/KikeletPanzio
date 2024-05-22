@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kikelet_Panzio
+namespace KikeletPanzio
 {
     /// <summary>
     /// Interaction logic for Regisztracio.xaml
@@ -23,5 +23,16 @@ namespace Kikelet_Panzio
         {
             InitializeComponent();
         }
+
+        private void BtnMegse_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void BtnRegisztracio_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("A regisztráció sikertelen!");
+        }
     }
 }
+a
